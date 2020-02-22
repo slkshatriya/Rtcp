@@ -6,12 +6,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 
+import com.synnapps.carouselview.CarouselView;
+import com.synnapps.carouselview.ImageListener;
 import com.technocrats.rtcp.R;
 import com.technocrats.rtcp.basicsscreen;
 import com.technocrats.rtcp.ui.slideshow.SlideshowFragment;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
@@ -19,23 +23,29 @@ public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
     Button basicsofc, compitetiveofc;
+    CardView card,card1;
     View root;
+    CarouselView carouselView;
+    int[] sampleImages = {R.drawable.comp1, R.drawable.comp2, R.drawable.comp, R.drawable.comp4};
 
     public View onCreateView(@NonNull final LayoutInflater inflater,
                              final ViewGroup container, Bundle savedInstanceState) {
         homeViewModel =
                 ViewModelProviders.of(this).get(HomeViewModel.class);
           root = inflater.inflate(R.layout.fragment_home, container, false);
-        basicsofc = root.findViewById(R.id.basicsofc);
-        compitetiveofc = root.findViewById(R.id.compitetiveofc);
-        compitetiveofc.setOnClickListener(new View.OnClickListener() {
+        card = root.findViewById(R.id.card);
+        carouselView = root.findViewById(R.id.carouselView);
+        carouselView.setPageCount(sampleImages.length);
+        carouselView.setImageListener(imageListener);
+        card1 = root.findViewById(R.id.card1);
+        card1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                openActivity4();
 
             }
         });
-        basicsofc.setOnClickListener(new View.OnClickListener() {
+        card.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openActivity2();
@@ -53,4 +63,10 @@ public class HomeFragment extends Fragment {
         Intent home1 = new Intent(getContext(), SlideshowFragment.class);
         startActivity(home1);
     }
+    ImageListener imageListener = new ImageListener() {
+        @Override
+        public void setImageForPosition(int position, ImageView imageView) {
+            imageView.setImageResource(sampleImages[position]);
+        }
+    };
 }
