@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient3"
+    android:layout_height="match_parent"
+    tools:context=".basicsscreen9">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C++ call by value "
+            android:background="#000000"
+            android:textColor="#F5D92E"
+            android:id="@+id/tutorial19"
+            android:gravity="center"
+            android:textSize="30dp"/>
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/tutorial19"
+           android:src="@drawable/next11"
+           android:layout_marginTop="30dp"
+           android:id="@+id/imgex"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgex"
+            android:text="@string/basicelleven"
+            android:textColor="#000000"
+            android:textSize="24dp"
+            android:id="@+id/tutorial20"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgex1"
+            android:src="@drawable/next12"
+            android:layout_below="@id/tutorial20"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/next12"
+            android:layout_below="@id/imgex1"
+            android:layout_marginLeft="150dp"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:text="Next"/>
+
+    </RelativeLayout>
+
+</ScrollView>

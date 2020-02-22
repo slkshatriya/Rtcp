@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient3"
+    android:layout_height="match_parent"
+    tools:context=".basicsscreen7">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C++ For Loop"
+            android:background="#000000"
+            android:textColor="#F5D92E"
+            android:id="@+id/tutorial13"
+            android:gravity="center"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tutorial13"
+            android:layout_marginTop="30dp"
+            android:text="@string/basicseven"
+            android:textSize="24dp"
+            android:textColor="#000000"
+            android:id="@+id/tutorial14"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgforloop"
+            android:layout_below="@id/tutorial14"
+            android:src="@drawable/next8"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/basiceight"
+            android:layout_below="@id/imgforloop"
+            android:textSize="24dp"
+            android:textColor="#000000"
+            android:id="@+id/tutorial15"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgwhileloop"
+            android:src="@drawable/next9"
+            android:layout_below="@id/tutorial15"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/next8"
+            android:layout_below="@id/imgwhileloop"
+            android:layout_marginLeft="150dp"
+            android:text="Next"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="15dp"/>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.technocrats.rtcp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".basicscreen14"></activity>
+        <activity android:name=".ui.basicscreen15" />
+        <activity android:name=".basicscreen13" />
+        <activity android:name=".basicsscreen11" />
+        <activity android:name=".basicsscreen10" />
+        <activity android:name=".basicsscreen9" />
+        <activity android:name=".basicsscreen8" />
+        <activity android:name=".basicsscreen7" />
+        <activity android:name=".basicsscreen6" />
+        <activity android:name=".basicsscreen5" />
+        <activity android:name=".basicsscreen4" />
+        <activity android:name=".basicsscreen3" />
+        <activity android:name=".basicsscreen2" />
+        <activity android:name=".basicsscreen1" />
+        <activity android:name=".basicscreen12" />
+        <activity
+            android:name=".basicsscreen"
+            android:parentActivityName=".homeScreen"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".homeScreen"
+            android:label="@string/title_activity_home_screen_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".loginauth" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

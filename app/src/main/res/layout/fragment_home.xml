@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="159dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="#000000"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:id="@+id/imgviewc"
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="120dp"
+                android:src="@drawable/programmer" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="78dp"
+                android:layout_below="@id/txtrtcp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="60dp"
+                android:text="Compitetive Guide"
+                android:textColor="#C4A26C"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/txtrtcp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:text="RTCP"
+                android:textColor="#1AE9CC"
+                android:textSize="22sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="159dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="20dp"
+            app:cardBackgroundColor="#ffcc80"
+            app:cardCornerRadius="15dp">
+
+
+            <ImageView
+                android:id="@+id/basicsc"
+                android:layout_width="362dp"
+                android:layout_height="204dp"
+                app:srcCompat="@drawable/basicimg" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="20dp"
+            app:cardBackgroundColor="#48D84F"
+            app:cardCornerRadius="15dp">
+
+
+            <Button
+                android:id="@+id/basicsofc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00D12020"
+                android:text="Basics of C++" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="159dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="20dp"
+            app:cardBackgroundColor="#ffcc80"
+            app:cardCornerRadius="15dp">
+
+
+            <ImageView
+                android:id="@+id/compitetivec"
+                android:layout_width="362dp"
+                android:layout_height="204dp"
+                app:srcCompat="@drawable/compitetive" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="20dp"
+            app:cardBackgroundColor="#48D84F"
+            app:cardCornerRadius="15dp">
+
+
+            <Button
+                android:id="@+id/compitetiveofc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00D12020"
+                android:text="Compitetive of C++" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+</ScrollView>

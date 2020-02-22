@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient3"
+    android:layout_height="match_parent"
+    tools:context=".basicsscreen2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C++ Data Types "
+            android:background="#000000"
+            android:textColor="#F5D92E"
+            android:id="@+id/tutorial4"
+            android:gravity="center"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tutorial5"
+            android:layout_below="@id/tutorial4"
+            android:layout_marginTop="30dp"
+            android:text="@string/basictwo"
+            android:textSize="24dp"
+            android:textColor="#000000"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/taable"
+            android:layout_below="@id/tutorial4"
+            android:layout_marginTop="200dp"
+            android:id="@+id/taable"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/table"
+            android:id="@+id/table"
+            android:layout_below="@id/taable"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/next2"
+            android:text="Next"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:layout_below="@id/table"
+            android:layout_marginLeft="150dp"/>
+    </RelativeLayout>
+
+</ScrollView>

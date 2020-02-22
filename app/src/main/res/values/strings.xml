@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Rtcp</string>
+    <string name="title_activity_homescreen">homescreen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">RTCP</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Learn basics of C++</string>
+    <string name="menu_slideshow">Compitetive C++</string>
+    <string name="menu_tools">Test Your Knowledge</string>
+    <string name="menu_share">Share</string>
+    <string name="title_activity_home_screen_two">homeScreenTwo</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="menu_send">Send</string>
+    <string name="basic"><![CDATA[* What is C++?  \n  1. C++ is an object-oriented programming language.\n It is an extension to C programming \n 2. C++ was developed by Bjarne Stroustrup, as an extension to the C language \n 3. C++ tutorial provides basic and advanced concepts of C++. \nOur C++ tutorial is designed for beginners and professionals.\n 4. C++ is a middle-level language, as it encapsulates both high and low level language features.\n 5. C++ is close to C# and Java, it makes it easy for programmers to switch to C++ or vice versa. \n  * Usage of C++ : \n   By the help of C++ programming language, we can develop different types of secured and robust applications: \n 1. Window application \n 2. Client-Server application \n 3. Device drivers \n 4. Embedded firmware etc.   \n C++ Quickstart: \n* To write the first C++ program,  open the C++ console and write the following code \n \n  #include <iostream.h>  \n  #include<conio.h> \n   void main() {   \n   clrscr();   \n cout << \'welcome to C++ Programming.\';  \n   getch();\n }\n \n >.#include<iostream.h> includes the standard input output library functions.\n
+	>.It provides cin and cout methods for reading from input and writing to output.\n
+	>. #include <conio.h> includes the console input output library functions.\n The getch() function is defined in conio.h file.\n
+	>. cout << "Welcome to C++ Programming.\n" is used to print the data "Welcome to C++ Programming." on the console.\n
+	>. Now click on the compile menu then compile sub menu to compile the c++ program.\n \n \n
+]]></string>
+    <string name="basicone">1. A variable is a name of memory location.\n It is used to store data.\n Its value can be changed and it can be reused many times.\n
+	2. It is a way to represent memory location through symbol so that it can be easily identified.\n
+	3. In C++, there are different types of variables (defined with different keywords), for example:\n int - stores integers (whole numbers), \nwithout decimals, such as 123 or -123 \n	double - stores floating point numbers, with decimals, such as 19.99 or -19.99 \nchar - stores single characters, such as a or B.\n Char values are surrounded by single quotes \n string - stores text, such as \"Hello World\".\n String values are surrounded by double quotes. \nbool - stores values with two states\: true or false \nLet\'s see the syntax to declare a variable\: \n type variable_list\; \nThe example of declaring variable is given below: \nint x\; \nfloat y\; \nchar z\; \nHere, x, y, z are variables and int, float, char are data types. \nWe can also provide values while declaring the variables as given below\: \nint x=5,b=10\;  //declaring 2 variable of integer type  \nfloat f=30.8\; \nchar c=\'A\'\; \nRules for defining variables\:\n
+	A variable can have alphabets, digits and underscore.\n
+	A variable name can start with alphabet and underscore only. \nIt can\'t start with digit.\n
+	No white space is allowed within variable name.\n
+	A variable name must not be any reserved word or keyword e.g. char, float etc.\n\n\n
+    </string>
+    <string name="basictwo">A data type specifies the type of data that a variable can store such as integer, floating, character etc.\n
+	There are 4 types of data types in C++ language.\n\n
+</string>
+    <string name="basicthree">Operators are used to perform operations on variables and values.\n
+In the example below, we use the + operator to add together two values\:\n
+EXAMPLE\:- int sum1 = 100 + 50\; \n  // 150 (100 + 50)\n int sum2 = sum1 + 250\;\n // 400 (150 + 250)\n
+C+ divides the operators into the following groups\:\n
+ 1.Arithmetic operators\n
+ 2.Assignment operators\n
+ 3.Comparison operators\n
+ 4.Logical operators\n
+ 5.Bitwise operators</string>
+    <string name="basicfour">A keyword is a reserved word. You cannot use it as a variable name, constant name etc.\n A list of 32 Keywords in C++
+	Language which are also available in C language are given below.\n</string>
+    <string name="basicfive">Namespace in C++\:\n
+	1. Namespaces allow us to group named entities that otherwise would have global scope into narrower scopes, giving them namespace scope.\n
+	2. Namespace is a feature added in C++ and not present in C.\n
+	3. A namespace is a declarative region that provides a scope to the identifiers (names of the types, function, variables etc) inside it.\n	
+	4. Namespace declarations appear only at global scope.\n
+	5. Namespace declarations can be nested within another namespace.\n
+	6. Namespace declarations don’t have access specifiers. (Public or private)\n
+	7. No need to give semicolon after the closing brace of definition of namespace.\n
+</string>
+    <string name="basicsix">Use the switch statement to select one of many code blocks to be executed.\n
+	switch(expression) {\n case x: \n// code block \nbreak; \case y: \n// code block\n  break; \n default:\n  // code block\n  }\n
+	> The switch expression is evaluated once\n
+	> The value of the expression is compared with the values of each case\n
+	> If there is a match, the associated block of code is executed\n
+	> The break and default keywords are optional, and will be described later in this chapter\n
+	   </string>
+    <string name="basicseven">* When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop:\n\n
+SYNTAX:-\n\n	for(initialization; condition; incr/decr){\n    
+		//code to be executed \n   
+		}\n\n C++ Nested For Loop:\n\n
+        * In C++, we can use for loop inside another for loop, it is known as nested for loop. \n
+       The inner loop is executed fully when outer loop is executed one time.\n
+EXAMPLE: </string>
+    <string name="basiceight">C++ While loop:\n\n
+ while loop loops through a block of code as long as a specified condition is true:\n
+SYNTAX:\n\n
+	while (condition) { \n	 // code block to be executed \n }\n
+In the example below, the code in the loop will run, over and over again, as long as a variable (i) is less than 5:\n
+   EXAMPLE:</string>
+    <string name="basicnine">The do/while loop is a variant of the while loop.\n
+	This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop 	as long as the condition is true.\n
+SYNTAX:\n\n	do { \n // code block to be executed \n} \nwhile (condition);\n EXAMPLE:
+</string>
+    <string name="basicten">\nC++ Functions:\n\n
+	A function is a block of code which only runs when it is called.\n
+	You can pass data, known as parameters, into a function.\n
+	Functions are used to perform certain actions, and they are important for reusing code:\n Define the code once, and use it many times.\n Declaration of a function:\n return_type function_name(data_type parameter...) \n 
+{  \n  
+//code to be executed \n   
+} \n </string>
+    <string name="basicelleven">\nCall by value and call by reference in C++:\n
+	There are two ways to pass value or data to function in C language:\n call by value and call by reference.\n Original value is not modified in call by value but it is modified in call by reference.\n Call by value in C++:
+	\n In call by value, original value is not modified.\n
+	\n In call by value, value being passed to the function is locally stored by the function parameter in stack memory location.\n </string>
+    <string name="basictwelve">
+        In call by reference, original value is modified because we pass reference (address).
+        Here, address of the value is passed in the function, so actual and formal arguments share the same address space.Hence, value changed inside the function, is reflected inside as well as outside the function.
+       \n Note: To understand the call by reference, you must have the basic knowledge of pointers.</string>
+    <string name="basictherteen">1.When function is called within the same function, it is known as recursion in C++. The function which calls 	   the  same function, is known as recursive function.
+	2. A function that calls itself, and doesn\'t perform any task after function call, is known as tail recursion. In tail 	     recursion, we generally call the same function with return statement.
+\nEXAMPLE:-
+</string>
+    <string name="basicfourteen">
+        A pointer however, is a variable that stores the memory address as its value.\n
+	1 Pointer reduces the code and improves the performance, it is used to retrieving strings, trees etc. and use with arrays, structures and functions.\n
+	2 We can return multiple values from function using pointer.\n
+	3 It makes you able to access any memory location in the computer\'s memory.\n
+
+    Declaring a pointer\n
+	The pointer in C++ language can be declared using \∗ (asterisk symbol).\n
+	int \∗   a; pointer to int   \n 
+	char \∗  c; pointer to char 
+    </string>
+    <string name="basicfifteen">
+        Array is a  Collection of similar type of data having specific memory  location\n
+Array is a container that encapsulates fixed size arrays. In C++, array index starts from 0. We can store only fixed set of elements in C++ array.\n
+
+Advantages of C++ Array:\n
+	1.Code Optimization (less code)\n
+	2.Random Access\n
+	3.Easy to traverse data\n
+	4.Easy to manipulate data\n
+	5.Easy to sort data etc\n
+
+C++ Array Types:\n
+	 There are 2 types of arrays in C++ programming:\n
+	1.Single Dimensional Array\n
+	2.Multidimensional Array\n
+
+C++ Single Dimensional Array:\n
+	 1.A one-dimensional array (or single dimension array) is a type of linear array.\n
+	2. Accessing its elements involves a single subscript which can either represent a row or column index\n
+    </string>
+
+    <string name="basicsixteen">
+        Multidimensional arrays are an extension of 2-D matrices and use additional subscripts for indexing. 
+The multidimensional array is also known as rectangular arrays in C++.
+ It can be two dimensional or three dimensional. The data is stored in tabular form (row ∗ column) which is also known as matrix.
+\nEXAMPLE:\n
+	 Two dimensional array:\n
+	int two_d[10][20];	\n
+Three dimensional array: \n
+        int three_d[10][20][30];
+    </string>
+
+</resources>
