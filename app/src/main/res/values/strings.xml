@@ -137,5 +137,77 @@ The multidimensional array is also known as rectangular arrays in C++.
 Three dimensional array: \n
         int three_d[10][20][30];
     </string>
+    <string name="comp_part1">The C++ Standard Template Library (STL)
+The Standard Template Library (STL) is a set of C++ template classes to provide common programming data structures and functions such as lists, stacks, arrays, etc. It is a library of container classes, algorithms, and iterators. It is a generalized library and so, its components are parameterized. A working knowledge of template classes is a prerequisite for working with STL.
+STL has four components
+•	Algorithms
+•	Containers
+•	Functions
+•	Iterators
 
+
+
+Algorithm:
+The header algorithm defines a collection of functions especially designed to be used on ranges of elements.They act on containers and provide means for various operations for the contents of the containers.
+</string>
+    <string name="whycomp">C++ is by far the the most popular language of choice for competitive programmers across the world as it is usually faster than Java and Python, and most of the resources are available in C++. C++ also has a vast library called STL(Standard Template Library) which makes life a lot easier for competitive coders</string>
+    <string name="screencomp">sorting is one of the most basic functions applied to data. It means arranging the data in a particular fashion, which can be increasing or decreasing. There is a builtin function in C++ STL by the name of sort().
+This function internally uses IntroSort. In more details it is implemented using hybrid of QuickSort, HeapSort and InsertionSort.By default, it uses QuickSort but if QuickSort is doing unfair partitioning and taking more than N*logN time, it switches to HeapSort and when the array size becomes really small, it switches to InsertionSort.
+The prototype for sort is :
+sort(startaddress, endaddress)
+startaddress: the address of the first element of the array
+endaddress: the address of the next contiguous location of the last element of the array.
+So actually sort() sorts in the range of [startaddress,endaddress)
+Example:-
+    </string>
+    <string name="searchingscr">Binary search is a widely used searching algorithm that requires the array to be sorted before search is applied. The main idea behind this algorithm is to keep dividing the array in half (divide and conquer) until the element is found, or all the elements are exhausted.
+It works by comparing the middle item of the array with our target, if it matches, it returns true otherwise if the middle term is greater than the target, the search is performed in the left sub-array.
+If the middle term is less than target, the search is performed in the right sub-array.
+
+The prototype for binary search is :
+binary_search(startaddress, endaddress, valuetofind)
+startaddress: the address of the first element of the array.
+endaddress: the address of the last element of the array.
+valuetofind: the target value which we have to search for.
+
+Example:-
+
+</string>
+    <string name="impstl">For all those who aspire to excel in competitive programming, only having a knowledge about containers of STL is of less use till one is not aware what all STL has to offer.
+STL has an ocean of algorithms, for all  library functions .
+Some of the most used algorithms on vectors and most useful one’s in Competitive Programming are mentioned as follows :
+
+
+1.	sort(first_iterator, last_iterator) – To sort the given vector.
+2.	reverse(first_iterator, last_iterator) – To reverse a vector.
+3.	\*max_element (first_iterator, last_iterator) – To find the maximum element of a vector.
+4.	\*min_element (first_iterator, last_iterator) – To find the minimum element of a vector.
+5.	accumulate(first_iterator, last_iterator, initial value of sum) – Does the summation of vector elements
+
+example:-
+</string>
+    <string name="screen5">From C++11 onwards, some new and interesting algorithms are added in STL of C++. These algorithms operate on an array and are useful in saving time during coding and hence useful in competitive programming as well.
+all_of()
+This function operates on whole range of array elements and can save time to run a loop to check each elements one by one. It checks for a given property on every element and returns true when each element in range satisfies specified property, else returns false.
+
+EXAMPLE:
+</string>
+    <string name="img2">any_of()
+This function checks for a given range if there’s even one element satisfying a given property mentioned in function. Returns true if at least one element satisfies the property else returns false.
+
+EXAMPLE:
+</string>
+    <string name="img3">none_of()
+This function returns true if none of elements satisfies the given condition else returns false.
+EXAMPLE:-
+</string>
+    <string name="img4">copy_n()
+copy_n() copies one array elements to new array. This type of copy creates a deep copy of array. This function takes 3 arguments, source array name, size of array and the target array name.
+
+EXAMPLE:-
+</string>
+    <string name="img5">iota()
+This function is used to assign continuous values to array. This function accepts 3 arguments, the array name, size, and the starting number.
+Example:-
+</string>
 </resources>
