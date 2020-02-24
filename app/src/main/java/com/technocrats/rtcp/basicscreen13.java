@@ -27,7 +27,7 @@ public class basicscreen13 extends AppCompatActivity {
         }));
     }
     public void openActivity26(){
-      Intent next16 = new Intent(basicscreen13.this, basicsscreen15.class);
+      Intent next16 = new Intent(basicscreen13.this, basicscreen14.class);
        startActivity(next16);
     }
 }

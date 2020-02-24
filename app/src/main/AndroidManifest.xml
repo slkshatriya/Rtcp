@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".basicsscreen15"></activity>
+        <activity android:name=".basicscreen18"></activity>
+        <activity android:name=".basicscreen17" />
+        <activity android:name=".basicscreen16" />
+        <activity android:name=".basicscreen15" />
+
+        <activity android:name=".basicscreen14" />
+
         <activity android:name=".ui.basicscreen15" />
         <activity android:name=".basicscreen13" />
         <activity android:name=".basicsscreen11" />
