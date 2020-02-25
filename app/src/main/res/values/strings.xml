@@ -205,7 +205,7 @@ Function Templates:\n
 	 \nexample- if we have an add() function, we can create versions of the add function for adding the int, float or  		double type values.
 	\n> A Generic function is created by using the keyword template. The template defines what function will do.
 SYNTAX:-\n
-	template U+3008 classType \> ret\_type func\_name(parameter\_list)  
+	template &lt; classType \> ret\_type func\_name(parameter\_list)  
 	\n{  
 	  \n  // body of function.  
 	\n}  
@@ -214,9 +214,8 @@ SYNTAX:-\n
 Class Template\:\n
 	> We can define a template for a class.\n
 	\n example\- a class template can be created for the array class that can accept the array of various types such as 		int array, float array or double array.
-	\n>  When a class uses the concept of Template, then the class is known as generic class.
-SYNTAX:-\n
-	\ntemplate U+3008 class Ttype\>
+	\n>  When a class uses the concept of Template, then the class is known as generic class\.\syntax\:\-\n
+	\ntemplate &lt; class Ttype\>
 	\nclass class\_name  
 	\n\{
 	\n\.
