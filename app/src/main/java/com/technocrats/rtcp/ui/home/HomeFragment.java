@@ -23,7 +23,7 @@ public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
     Button basicsofc, compitetiveofc;
-    CardView card,card1;
+    CardView card,card1,card3;
     View root;
     CarouselView carouselView;
     int[] sampleImages = {R.drawable.comp1, R.drawable.comp2, R.drawable.comp, R.drawable.comp4};
@@ -38,6 +38,13 @@ public class HomeFragment extends Fragment {
         carouselView.setPageCount(sampleImages.length);
         carouselView.setImageListener(imageListener);
         card1 = root.findViewById(R.id.card1);
+        card3 = root.findViewById(R.id.card3);
+        card3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openActivity32();
+            }
+        });
         card1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -53,6 +60,10 @@ public class HomeFragment extends Fragment {
         });
 
         return root;
+    }
+    public void openActivity32(){
+        Intent contact = new Intent(getContext(), com.technocrats.rtcp.contact.class);
+        startActivity(contact);
     }
     public void openActivity2(){
         Intent home = new Intent(getContext(), basicsscreen.class);

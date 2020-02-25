@@ -15,7 +15,9 @@
         <activity android:name=".basicscreen15" />
 
         <activity android:name=".basicscreen14" />
-
+        <activity android:name=".compilerscreen"></activity>
+        <activity android:name=".contact" />
+        <activity android:name=".basicsscreen15" />
         <activity android:name=".ui.basicscreen15" />
         <activity android:name=".basicscreen13" />
         <activity android:name=".basicsscreen11" />
