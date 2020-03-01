@@ -183,7 +183,7 @@ Advantage of OOPs :\n
 
     </string>
 
-	<string name="basiceighteen">
+    <string name="basiceighteen">
 		Namespaces in C++ are used to organize too many classes so that it can be easy to handle the application.\n
 	For accessing the class of a namespace, we need to use namespacename::classname. \n
 	We can use using keyword so that we don\'t have to use complete name all the time.\n
@@ -191,7 +191,7 @@ Advantage of OOPs :\n
 
 	</string>
 
-	<string name="basicnineteen">
+    <string name="basicnineteen">
 		A template is a simple and yet very powerful tool in C++.\n
 It allows you to define the generic classes and generic functions and thus provides support for generic programming.\n Generic programming is a technique where generic types are used as parameters in algorithms so that they can work for a variety of data types.
 
@@ -223,5 +223,6 @@ Class Template\:\n
 	\n\}
 
 	</string>
+    <string name="contact"> This Is a Developer Section  </string>
 
 </resources>

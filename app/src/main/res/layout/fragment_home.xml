@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9E044FAB"
+    android:background="#00008b"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -45,7 +45,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 app:cardElevation="60dp"
-                app:cardBackgroundColor="#9E044FAB"
+                app:cardBackgroundColor="#9370db"
                 android:id="@+id/card"
                 app:cardCornerRadius="12dp"
                 android:layout_margin="12dp"
@@ -81,7 +81,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 app:cardElevation="60dp"
-                app:cardBackgroundColor="#9E044FAB"
+                app:cardBackgroundColor="#9370db"
                 android:id="@+id/card1"
                 app:cardCornerRadius="12dp"
                 android:layout_margin="12dp"
@@ -118,7 +118,7 @@
                 android:layout_rowWeight="1"
                 app:cardElevation="60dp"
                 android:id="@+id/card2"
-                app:cardBackgroundColor="#9E044FAB"
+                app:cardBackgroundColor="#9370db"
                 app:cardCornerRadius="12dp"
                 android:layout_margin="12dp"
                 >
@@ -154,7 +154,7 @@
                 android:layout_rowWeight="1"
                 app:cardElevation="60dp"
                 android:id="@+id/card3"
-                app:cardBackgroundColor="#9E044FAB"
+                app:cardBackgroundColor="#9370db"
                 app:cardCornerRadius="12dp"
                 android:layout_margin="12dp"
                 >
