@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:background="#00008b"
         android:text="This Is User Guide Screen"
-        android:textSize="24dp"
+        android:textSize="26dp"
         android:textColor="#FFFFFF"
         android:id="@+id/userguide"
         android:gravity="center"/>
@@ -23,6 +23,13 @@
         android:layout_below="@id/userguide"
         app:cardBackgroundColor="#FFFFFF"
         android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This app helps the beginner to pursue competitive programming, this will help the beginner to master in competitive programming. For those who is, new in coding we advise you that you should start with beginner section. And those who have  basic knowledge in coding can start with advance. It mainly focus on the C++ STL, over the years the C++ STL libraries keeps improving and give vast range of predefined function and helps the coder to use this most effectively. Over the year we will be improving the app by including small video tutorial and tricks. We will be providing new question for practices."
+            android:textSize="22dp"
+            android:textColor="#000000"/>
 
 
     </androidx.cardview.widget.CardView>

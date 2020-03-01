@@ -2,10 +2,10 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
     android:background="@drawable/gradient3"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".basicsscreen">
+    tools:context=".compscreen1">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -14,39 +14,35 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="C++ Tutorial"
+            android:text="C++ STL"
             android:background="#000000"
             android:textColor="#F5D92E"
-            android:id="@+id/tutorial"
+            android:id="@+id/compitetive1"
             android:gravity="center"
             android:textSize="30dp"/>
 
         <TextView
-            android:id="@+id/tutorial1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tutorial"
-
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="10dp"
-            android:text="@string/basic"
+            android:id="@+id/compitetive2"
+            android:layout_below="@id/compitetive1"
             android:textColor="#000000"
-            android:textSize="24dp" />
-
+            android:layout_marginBottom="0dp"
+            android:text="@string/comp_part1"
+            android:layout_marginTop="20dp"
+            android:textSize="24dp"/>
         <Button
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:layout_below="@id/tutorial1"
-           android:text="Next"
-           android:textColor="#FFFFFF"
-           android:background="#000000"
-           android:id="@+id/next"
-           android:layout_marginLeft="150dp"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/compitetive2"
+            android:text="Next"
+            android:layout_marginTop="30dp"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:id="@+id/next50"
+            android:layout_marginLeft="150dp"/>
 
     </RelativeLayout>
-
-
-
 
 
 

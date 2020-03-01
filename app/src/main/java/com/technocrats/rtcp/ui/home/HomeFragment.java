@@ -13,7 +13,8 @@ import com.synnapps.carouselview.ImageListener;
 import com.technocrats.rtcp.Guide;
 import com.technocrats.rtcp.R;
 import com.technocrats.rtcp.basicsscreen;
-import com.technocrats.rtcp.ui.slideshow.SlideshowFragment;
+import com.technocrats.rtcp.compscreen1;
+import com.technocrats.rtcp.questionsscreen;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
@@ -24,7 +25,7 @@ public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
     Button basicsofc, compitetiveofc;
-    CardView card,card1,card2,card3;
+    CardView card,card1,card2,card3,card4;
     View root;
     CarouselView carouselView;
     int[] sampleImages = {R.drawable.comp1, R.drawable.comp2, R.drawable.comp, R.drawable.comp4};
@@ -40,7 +41,14 @@ public class HomeFragment extends Fragment {
         carouselView.setPageCount(sampleImages.length);
         carouselView.setImageListener(imageListener);
         card1 = root.findViewById(R.id.card1);
+        card4 = root.findViewById(R.id.card4);
         card3 = root.findViewById(R.id.card3);
+        card4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openActivity8();
+            }
+        });
         card2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -79,12 +87,16 @@ public class HomeFragment extends Fragment {
 
     }
     public void openActivity4(){
-        Intent home1 = new Intent(getContext(), SlideshowFragment.class);
+        Intent home1 = new Intent(getContext(), compscreen1.class);
         startActivity(home1);
     }
     public void openActivity6(){
         Intent guide = new Intent(getContext(), Guide.class);
         startActivity(guide);
+    }
+    public void openActivity8(){
+        Intent questions = new Intent(getContext(), questionsscreen.class);
+        startActivity(questions);
     }
     ImageListener imageListener = new ImageListener() {
         @Override
