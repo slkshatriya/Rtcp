@@ -22,7 +22,7 @@
         android:id="@+id/sign_in_one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="If you have an account then SignIn"
+        android:text="If you have an account then kindly SignIn"
         android:textSize="14dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
