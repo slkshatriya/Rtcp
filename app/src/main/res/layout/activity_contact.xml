@@ -15,7 +15,7 @@
         android:textSize="24dp"
         android:textColor="#FFF"
         android:id="@+id/title"
-        android:layout_gravity="center"
+        android:gravity="center"
         android:background="#00008b"/>
 
    <androidx.cardview.widget.CardView
@@ -36,7 +36,7 @@
            android:textSize="22dp"
            android:id="@+id/name"
            android:gravity="center"
-           android:textColor="#000000"
+           android:textColor="#000"
            />
        <TextView
            android:layout_width="match_parent"
@@ -44,7 +44,7 @@
            android:text="Email: surajkeshr023@gmail.com"
            android:textSize="22dp"
            android:textColor="#000"
-           android:layout_gravity="center"
+           android:gravity="center"
            android:layout_below="@id/name"/>
        </RelativeLayout>
    </androidx.cardview.widget.CardView>
@@ -66,8 +66,8 @@
                 android:text="Vishwajet Kumar"
                 android:textSize="22dp"
                 android:id="@+id/name1"
-                android:layout_gravity="center"
-                android:textColor="#000"
+                android:gravity="center"
+                android:textColor="#000000"
                 />
             <TextView
                 android:layout_width="match_parent"
@@ -98,7 +98,7 @@
                 android:textSize="22dp"
                 android:id="@+id/name2"
                 android:gravity="center"
-                android:textColor="#000000"
+                android:textColor="#000"
                 />
             <TextView
                 android:layout_width="match_parent"
